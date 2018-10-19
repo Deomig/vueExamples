@@ -1,6 +1,8 @@
 # firstapp
 
-> Projeto teste para mostrar o uso de comonentes e link router
+> Projeto teste para mostrar o uso de componentes e link router do vue.
+ - usando o vue-cli
+ - node-sass
 
 ## Build Setup
 
