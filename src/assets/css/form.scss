@@ -1,0 +1,59 @@
+
+.content {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.form {
+  margin-top: 65px;
+
+  .field {
+    display: block;
+    margin-bottom: 25px;
+
+    &__textcontent {
+      color: #fff;
+      font-size: 18px;
+      line-height: 23px;
+      margin-bottom: 8px;
+
+      .detail-text {
+        font-style: italic;
+        font-size: 14px;
+      }
+
+      &--error {
+        color: red;
+      }
+    }
+
+    &__formcontrol {
+      background: rgba(195, 198, 185, 0.5);
+      border: 1px solid #fff;
+      border-radius: 0;
+      display: block;
+      font-size: 22px;
+      padding: 20px;
+      width: 100%;
+
+
+
+      &--textarea {
+        min-height: 200px;
+        overflow: hidden;
+        @media (min-width: 768px) {
+          min-height: 130px;
+        }
+      }
+
+      &--error {
+        border: 1px solid #fff;
+        color: #fff;
+      }
+      &.select{
+        line-height: 63px;
+      }
+    }
+  }
+}
