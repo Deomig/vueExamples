@@ -1,6 +1,6 @@
 # firstapp
 
-> A Vue.js project
+> Projeto teste para mostrar o uso de comonentes e link router
 
 ## Build Setup
 
